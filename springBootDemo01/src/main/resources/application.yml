@@ -1,0 +1,27 @@
+
+ my: 
+  name: ge
+  age: 21
+  number: ${random.int[100,200]}
+  
+  
+ security:
+      user:
+       name: ge
+       password: 6161
+ 
+    
+
+ logging:
+    level: 
+        com: trace
+        
+ management:
+   security:
+    enabled: false 
+   port: 8888 
+       
+       
+ endpoints: 
+   shutdown:
+    enabled: false
