@@ -1,0 +1,12 @@
+
+ my: 
+  name: ge
+  age: 21
+  number: ${random.int[100,200]}
+  
+  
+  
+  
+ spring: 
+    profiles: 
+      active: prod 
