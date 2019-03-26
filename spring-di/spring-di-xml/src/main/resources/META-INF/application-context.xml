@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	                    http://www.springframework.org/schema/context
+                        http://www.springframework.org/schema/context/spring-context.xsd"
+	default-init-method="init"
+	default-destroy-method="stop">
+ <context:annotation-config/>
+<bean id="user" class="cn.com.taiji.gege.po.User">
+    <property name="uname" value="gege"/>
+    <property name="uage" value="12"/>
+    <property name="stu"> <ref bean="student1"/></property>
+</bean>
+
+<bean id="student1" class="cn.com.taiji.gege.po.Student">
+    <property name="stuId" value="111"></property>
+    <property name="stuName" value="gege"></property>
+</bean>
+ 
+
+</beans>
