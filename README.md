@@ -15,15 +15,14 @@
   * 创建并启动SpringBoot项目
   * spring-boot-devtools热部署
   * Spring Boot 配置文件  
-       application属性文件
-       自定义属性
+       application属性文件     
+       自定义属性    
        自定义配置文件
-                  
-             （4）安装Lombok插件
-                  简化实体Bean的编写
-             （5）Profile文件
+  * 安装Lombok插件
+       简化实体Bean的编写
+  * Profile文件
 ## Day190326：
-            （1）Spring Boot日志 
-            （2）Spring Boot单元测试
-            （2）Spring Boot Actuator
-            （3）Spring Boot Admin
+  * Spring Boot日志 
+  * Spring Boot单元测试
+  * Spring Boot Actuator
+  * Spring Boot Admin
