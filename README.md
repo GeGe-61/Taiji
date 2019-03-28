@@ -30,6 +30,7 @@
   * 拦截器
   * SpringMVC数据传递及常用注解    
 ## Day190328    
+  * 使用PostMan
   * 国际化
   * 跨域问题    
   * thymeleaf使用
