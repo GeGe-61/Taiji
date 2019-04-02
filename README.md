@@ -35,3 +35,11 @@
   * 跨域问题    
   * thymeleaf使用
   * SpringBoot实现MVC
+## Day190402    
+  * springBoot-jdbc    
+  * 连接Mysql数据库进行数据操作    
+  * JdbcTemplate    
+  * NamedParameterJdbcTemplate    
+  * SimpleJdbc     
+  * batch批量处理数据    
+  * SimpleJdbcCall调用存储过程
