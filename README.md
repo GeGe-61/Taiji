@@ -47,5 +47,6 @@
   * Jpa 
   * Jpql    
   * EntityManager进行数据操作    
-  * 实现一对一，一对多，多对多关系
-  
+  * 实现一对一，一对多，多对多关系    
+## Day19040
+  * SpringBoot简单Filter实现登录过滤
