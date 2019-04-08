@@ -42,4 +42,10 @@
   * NamedParameterJdbcTemplate    
   * SimpleJdbc     
   * batch批量处理数据    
-  * SimpleJdbcCall调用存储过程
+  * SimpleJdbcCall调用存储过程    
+## Day190403    
+  * Jpa 
+  * Jpql    
+  * EntityManager进行数据操作    
+  * 实现一对一，一对多，多对多关系
+  
