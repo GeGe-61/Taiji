@@ -23,20 +23,26 @@
   * Profile文件    
   [springBootStrat](https://github.com/GeGe-61/Taiji/tree/master/springBootStrat)
 ## Day190326：
-  * Spring Boot日志 
+  * Spring Boot日志
   * Spring Boot单元测试
   * Spring Boot Actuator
-  * Spring Boot Admin
+  * Spring Boot Admin    
+  [spring-boot-log4j2](https://github.com/GeGe-61/Taiji/tree/master/spring-boot-log4j2)    
+  [springBootDemo01](https://github.com/GeGe-61/Taiji/tree/master/springBootDemo01)    
+  [springBootAdmin-client](https://github.com/GeGe-61/Taiji/tree/master/springBootAdmin-client)     
+  [springBootAdmin-server](https://github.com/GeGe-61/Taiji/tree/master/springBootAdmin-server)
 ## Day190327:   
   * SpringMVC原理及配置    
   * 拦截器
   * SpringMVC数据传递及常用注解    
+  [mvc-demo](https://github.com/GeGe-61/Taiji/tree/master/mvc-demo)
 ## Day190328    
   * 使用PostMan
   * 国际化
   * 跨域问题    
   * thymeleaf使用
-  * SpringBoot实现MVC
+  * SpringBoot实现MVC    
+  [springBootMvc](https://github.com/GeGe-61/Taiji/tree/master/springBootMvc)
 ## Day190402    
   * springBoot-jdbc    
   * 连接Mysql数据库进行数据操作    
@@ -44,11 +50,14 @@
   * NamedParameterJdbcTemplate    
   * SimpleJdbc     
   * batch批量处理数据    
-  * SimpleJdbcCall调用存储过程    
+  * SimpleJdbcCall调用存储过程       
+  [spring-boot-jdbc](https://github.com/GeGe-61/Taiji/tree/master/spring-boot-jdbc)
 ## Day190403    
   * Jpa 
   * Jpql    
   * EntityManager进行数据操作    
   * 实现一对一，一对多，多对多关系    
-## Day19040
-  * SpringBoot简单Filter实现登录过滤
+  [jpa-demo](https://github.com/GeGe-61/Taiji/tree/master/jpa-demo)
+## Day190408
+  * SpringBoot简单Filter实现登录过滤   
+  [login-demo](https://github.com/GeGe-61/Taiji/tree/master/login-demo)
