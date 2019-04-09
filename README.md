@@ -8,7 +8,8 @@
        基于注解的容器配置   
        基于Java的容器配置   
       
-    *XML配置优先级高于注解* 
+    *XML配置优先级高于注解*    
+    [spring-di](https://github.com/GeGe-61/Taiji/tree/master/spring-di)
          
 ## Day190325：   
   * 创建并启动SpringBoot项目
@@ -19,7 +20,8 @@
        自定义配置文件
   * 安装Lombok插件   
        *简化实体Bean的编写*    
-  * Profile文件
+  * Profile文件    
+  [springBootStrat](https://github.com/GeGe-61/Taiji/tree/master/springBootStrat)
 ## Day190326：
   * Spring Boot日志 
   * Spring Boot单元测试
