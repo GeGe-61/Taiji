@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"/>
+<title>LoginSuccess</title>
+<link th:href="@{bootstrap/css/bootstrap.min.css}" rel="stylesheet" ></link>
+<link th:href="@{Main.css}" rel="stylesheet" type="text/css"></link>
+</head>
+<body>
+<div class="pHead">
+     <h3 th:text="#{login}"></h3>
+      <h3 th:text="#{success}"></h3>
+ 
+     <table border="1" align="center">
+        <tr> 
+           <td th:text="#{username}"></td>
+           
+           <td th:text="#{email}"></td>
+           <td th:text="#{password}"></td>
+        </tr>
+        <tr th:each="u:${userList}"> 
+            
+             <td th:text="${u.username}"></td>
+          
+             <td th:text="${u.email}"></td>  
+             <td th:text="${u.password}"></td>    
+                
+        </tr>
+     </table>
+
+</div>
+  
+      
+
+</body>
+</html>

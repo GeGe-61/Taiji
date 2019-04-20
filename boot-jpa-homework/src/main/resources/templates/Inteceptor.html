@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"/>
+<title>Insert title here</title>
+<link th:href="@{bootstrap/css/bootstrap.min.css}" rel="stylesheet" ></link>
+<link th:href="@{Main.css}" rel="stylesheet" type="text/css"></link>
+</head>
+<body>
+<div class="pHead">
+<h2><span th:text="#{registered}"></span></h2>
+<a th:href="@{/login}"><span th:text="#{login}"></span></a>
+</div>
+
+
+</body>
+</html>

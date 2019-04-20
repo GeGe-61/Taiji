@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"/>
+<title>Success</title>
+<link th:href="@{bootstrap/css/bootstrap.min.css}" rel="stylesheet" ></link>
+<link th:href="@{Main.css}" rel="stylesheet" type="text/css"></link>
+</head>
+<body>
+
+<div class="panel-heading pHead">
+<div th:object="${user}" >
+  <h2 th:text="*{username}"></h2>
+</div>
+<h2 th:text="#{success}"  ></h2><br/>
+<a th:href="@{/login}"><span th:text="#{login}"></span></a></div>
+
+
+</body>
+</html>

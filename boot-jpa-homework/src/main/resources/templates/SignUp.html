@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"/>
+<title>sign up</title>
+
+<link th:href="@{bootstrap/css/bootstrap.min.css}" rel="stylesheet" ></link>
+<link th:href="@{Main.css}" rel="stylesheet" type="text/css"></link>
+</head>
+<body>
+   <div class="panel-heading" >
+      <h3 class="pHead"><span th:text="#{signup}"></span></h3>
+   </div>
+   <div class="panel-body" id="upPanel">
+   <form  class="form-horizontal" th:action="@{submitSignUp}" th:object="${user}"  method="post">
+
+         <div class="form-group">
+            <label for="username" > <span th:text="#{username}"></span></label>
+            <input type="text" th:field="*{username}" id="username"/>
+            <span th:errors="*{username}"></span><br/>
+         </div>
+        
+        <div class="form-group">
+            <label for="email" > <span th:text="#{email}"></span></label>
+            <input type="text" th:field="*{email}" id="email"/>
+            <span th:errors="*{email}"></span><br/>
+         </div>
+         
+          <div class="form-group">
+            <label for="password" >   <span th:text="#{password}"></span></label>
+            <input type="password" th:field="*{password}" id="password"/>
+            <span th:errors="*{password}"></span><br/>
+         </div>
+     
+         
+         <input type="submit" th:value="#{submit}"/>
+         
+         </form> 
+         <a th:href="@{/signUp(locale=zh_CN)}">中文</a>
+         <a th:href="@{/signUp(locale=en_US)}">English</a>
+   </div>
+   
+   
+   
+</body>
+</html>

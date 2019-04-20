@@ -1,0 +1,43 @@
+[
+
+{
+	"empId":1,
+	"empNO":"emp001",
+	"empName":"张凡",
+	"salary":1,
+	"gender":0
+},
+{
+	"empId":2,
+	"empNO":"emp002 ",
+	"empName":"凡",
+	"salary":2,
+	"gender":1
+},{
+	"empId":1,
+	"empNO":"emp003",
+	"empName":"张凡",
+	"salary":3,
+	"gender":0
+},
+{
+	"empId":2,
+	"empNO":"emp004 ",
+	"empName":"凡",
+	"salary":4,
+	"gender":1
+},{
+	"empId":1,
+	"empNO":"emp005",
+	"empName":"张凡",
+	"salary":5,
+	"gender":0
+},
+{
+	"empId":2,
+	"empNO":"emp006 ",
+	"empName":"凡",
+	"salary":6,
+	"gender":1
+}
+]
