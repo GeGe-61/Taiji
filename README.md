@@ -1,5 +1,5 @@
 # Taiji
-## Day190322：
+## Day190322
  * Spring IOC 控制反转   
      应用程序本身不负责依赖对象的创建和维护，Spring IOC容器来负责对象的生命周期和对象之间的关系
                 
@@ -11,7 +11,7 @@
     *XML配置优先级高于注解*    
     [spring-di](https://github.com/GeGe-61/Taiji/tree/master/spring-di)
          
-## Day190325：   
+## Day190325   
   * 创建并启动SpringBoot项目
   * spring-boot-devtools热部署
   * Spring Boot 配置文件  
@@ -22,7 +22,7 @@
        *简化实体Bean的编写*    
   * Profile文件    
   [springBootStrat](https://github.com/GeGe-61/Taiji/tree/master/springBootStrat)
-## Day190326：
+## Day190326
   * Spring Boot日志
   * Spring Boot单元测试
   * Spring Boot Actuator
@@ -31,7 +31,7 @@
   [springBootDemo01](https://github.com/GeGe-61/Taiji/tree/master/springBootDemo01)    
   [springBootAdmin-client](https://github.com/GeGe-61/Taiji/tree/master/springBootAdmin-client)     
   [springBootAdmin-server](https://github.com/GeGe-61/Taiji/tree/master/springBootAdmin-server)
-## Day190327:   
+## Day190327  
   * SpringMVC原理及配置    
   * 拦截器
   * SpringMVC数据传递及常用注解    
