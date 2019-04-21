@@ -51,9 +51,14 @@ public class LoginController {
              template.opsForValue().set(LOGIN_LOCK+username,"1");
 
          }
-         //设置LOGIN_LOCK的过期时间
+         //设置LOGIN_COUNT()
         template.expire(LOGIN_COUNT+username,5,TimeUnit.MINUTES);
+         //设置LOGIN_LOCK的过期时间
+        template.expire(LOGIN_LOCK+username,5,TimeUnit.MINUTES);
 
 
     }
+
+
 }
+
