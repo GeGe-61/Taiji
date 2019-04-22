@@ -60,4 +60,9 @@
   [jpa-demo](https://github.com/GeGe-61/Taiji/tree/master/jpa-demo)
 ## Day190408
   * SpringBoot简单Filter实现登录过滤   
-  [login-demo](https://github.com/GeGe-61/Taiji/tree/master/login-demo)
+  [login-demo](https://github.com/GeGe-61/Taiji/tree/master/login-demo)       
+## springBoot注册作业
+  [boot-jpa-homework](https://github.com/GeGe-61/Taiji/tree/master/boot-jpa-homework)
+## redis和mongodb作业     
+  [redis-mongoDB-homework](https://github.com/GeGe-61/Taiji/commit/ee2556db172944cf52762f7f3e1d75001894088f)
+
